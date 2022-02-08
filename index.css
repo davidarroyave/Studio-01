@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: rgb(216, 155, 81);
+}
+
+.Logo-Cafeli{
+    border-radius: 30px; 
+    box-sizing: border-box;
+    box-shadow: 50px;
+    width: 400px;
+    height: 100px;
+    cursor:move
+}
+
+header{
+background-image: url(https://images.pexels.com/photos/977878/pexels-photo-977878.jpeg?cs=srgb&dl=pexels-dominika-roseclay-977878.jpg&fm=jpg);
+width: 100%;
+height: 100vh;
+
+
+}
+.navega{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    position:absolute;
+    left: 400px;
+    right: 60px;
+    border-radius: 1px 1px;
+}
+
+
+main{
+    background-color: rgba(94, 38, 13, 0.836);
+    padding: 80px;
+    margin: 60px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+video{
+    display: block;
+    margin: auto;
+    padding-top: 10px;    
+    border-style: double solid rgb(189, 189, 219);
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+
+.video{
+    text-align: center;
+    border-style: double solid rgb(189, 189, 219);
+}
+
+
+hr.hr{
+    border-top: 1px solid rgba(221, 220, 219, 0.849);
+    border-style: double;
+    border-bottom: rgb(248, 238, 238);
+}
+
+.navega{
+    list-style-type: none;
+}
+
+.navega1{
+    list-style-type: none;
+}
+
+.navegar{
+    text-align: center;
+   
+}
+
+.navbar{
+    display: inline-block;
+}
+
+
+h5,h4{
+    text-align: center;
+    text-size-adjust: center;
+}
+.button{
+    border: none;
+    padding: 2px 20px;
+    background-color: burlywood;
+    color: rgb(24, 4, 4);
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    
+}
+.button:hover{
+    width: 200px;
+    height: 1;
+    transition: all 0.40s;
+    color: rgb(211, 99, 7);
+    
+}
+
+.button2{
+    border: none;
+    padding: 2px 20px;
+    background-color: burlywood;
+    color: rgb(24, 4, 4);
+    font-family: cursive;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+
+}
+
+.button2:hover{
+    width: 200px;
+    height: 1;
+    transition: 0.40s;
+    color: rgb(211, 99, 7);
+    
+}
+
+.hr2{
+border: 5px solid silver;
+border-style: double;
+border-bottom: 3px solid seashell;
+size: 3px;
+border-bottom: rgb(248, 238, 238);
+
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: rgba(94, 38, 13, 0.836);
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
